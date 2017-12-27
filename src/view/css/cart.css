@@ -1,0 +1,311 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-11-18 15:07:56
+ * @version $Id$
+ */
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+fieldset{
+	border:1px solid #efefef;
+}
+#cart{
+	width:80%;
+	margin:1em auto;
+	margin-bottom: 5em;
+}
+.banner{
+	padding: 0 5%;
+	margin:0 auto;
+	height:3em;
+	line-height: 3em;
+	background: #efefef;
+}
+.legend{
+	text-align: center;
+	margin-left: 50%;
+}
+.content ul li{
+	float: left;
+}
+.thead{
+	background: #6d6d6de0;
+	color: white;
+	height: 2.5em;
+    line-height: 2.5em;
+    margin-top: 1.5em;
+	display: flex;
+	padding: 0 2.5em;
+}
+.thead li:nth-child(1){
+	flex:0 0 52%;
+	text-align: center;
+}
+.thead li:not(.info){
+	flex:0 0 12%;
+	text-align: center;
+}
+.commodity{
+	display: flex;
+	padding: 2.5em;
+	align-items: center;
+	border-top: 1px solid #d8d8d8;
+}
+.commodity li:not(.cominfo){
+	flex:0 0 12%;
+	text-align: center;
+}
+.commodity li:nth-child(1){
+	flex:0 0 52%;
+}
+.cominfo{
+	display: flex;
+	align-items: center;
+	flex-direction:row;
+}
+.checkcircle{
+	display: inline-block;
+	width:0.75em;
+	height:0.75em;
+	border-radius: 50%;
+	border: 1px solid #999;
+} 
+.commodity .picture{
+	margin:0 0.8em;
+	width:5em;
+	height:5em;
+	border: 1px solid #d8d8d8;
+}
+.commodity .details p:last-child{
+	margin-top:3em;
+}
+.details .gift{
+	color:#999;
+	margin-left:1.25em;
+}
+.number{
+	letter-spacing: -8px;
+}
+.number span{
+	letter-spacing: 0;
+	display: inline-block;
+	width:1.2em;
+	height:1.2em;
+	line-height: 1.2em;
+	border:1px solid #efefef; 
+	cursor: pointer;
+}
+.stock{
+	margin-top:0.4em;
+	color:#333;
+}
+.commodity li:nth-last-child(2){
+	color:#d81e06;
+}
+
+.footer{
+	margin-top:1em;
+}
+.footer .footleft{
+	float: left;
+	width:15em;
+	margin-left: 2.5em;
+}
+.footer span{
+	margin-right:1em;
+}
+.checkall{
+	color:#F25E0F;
+	cursor: pointer;
+}
+.cancelcheck{
+	cursor: pointer;
+}
+.footer .footright{
+	float: right;
+}
+.footright button{
+	width:12em;
+	height:4em;
+	background: #d81e06;
+	color: white;
+	border:1px solid #d81e06;
+}
+.footright .totalm{
+	color:#d81e06;
+	margin-left: 0.5em;
+}
+.pic span{
+	display: inline-block;
+	width:1.5em;
+	height:1.5em;
+	background: url("/static/img/icon/delete.png") no-repeat;
+}
+.pic span:hover{
+	background: url("/static/img/icon/delete1.png") no-repeat;
+}
+.checked{
+	border:none;
+	width: 1em;
+	height: 1em;
+	background: url("/static/img/icon/checked3.png");
+}
+.checkItemAll{
+	background:#F25E0F;
+	border:none;
+}
+.confirmBox{
+	position: absolute;
+	width: 20em;
+	height:12em;
+	top:40%;
+	left:40%;
+	background: white;
+	border:1px solid #999;
+	display: none;
+}
+.confirmBox .cancel{
+	position: absolute;
+	right:0.4em;
+	width: 1.5em;
+	height:1.5em;
+	margin-top:0.4em;
+	background: url("/static/img/icon/del.png");
+}
+.confirmBox .cancel:hover{
+	background: url("/static/img/icon/del1.png");
+}
+.confirmBox p{
+	text-align: center;
+	margin:3.5em 0 2.5em 0;
+}
+.bt{
+	text-align: center;
+}
+.bt .yes,.bt .no{
+	width:8em;
+	height: 3em;
+	margin-right: 1em;
+	background: white;
+	border: 1px solid #d81e06;
+	color:#d81e06;
+}
+.bt .yes:hover{
+	background: #d81e06;
+	color:white;
+}
+.bt .no{
+	background: #d81e06;
+	color:white;
+}
+.show{
+	display: block;
+}
+.delay{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000;
+    filter:alpha(Opacity=50);
+    -moz-opacity:0.5;
+    opacity: 0.5 ;
+}
+/*----确认订单页面-----*/
+.productName{
+	font-weight: bold;
+}
+.clearfix::before,.clearfix::after{
+	content:".";
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	display: block;
+}
+.numbers{
+	color:#333;
+	width:2.8em;
+	height:1.8em;
+	line-height: 1.8em;
+	border:1px solid #efefef;
+	margin-left: 30%;
+}
+.numbers span{
+	font-size: 13px;
+	margin-right: 2px;
+}
+.InfoConfirm{
+	width: 260px;
+    height: 135px;
+    padding: 10px 15px;
+    margin:20px 0;
+    float: right;
+    border: 1px solid #d8d8d8;
+}
+.InfoConfirm p{
+	margin-top:20px;
+	color:#999;
+}
+.InfoConfirm p span{
+	margin-left:10px;
+	color:#333;
+}
+.InfoConfirm .orderTotal{
+	font-weight: bold;
+	font-size: 16px;
+	color:#d81e06;
+}
+.footerbtns button{
+	width:200px;
+	height:50px;
+	color:#fff;
+	font-weight: bold;
+	background: #d81e06;
+	text-align:center;
+	border:1px solid #d81e06;
+	font-size: 16px;
+}
+.footerbtns button:hover{
+	background: #f14731;
+}
+.prev{
+	float: left;
+}
+.next{
+	float: right;
+}
+/*---------------------*/
+
+/*-----完成页面-----*/
+.checkout img{
+	width:120px;
+	height:156px;
+}
+.checkout{
+	width: 500px;
+	margin:0 auto;
+	text-align: center;
+}
+.checkout p{
+	margin-top:20px;
+	font-size: 20px;	
+}
+.checkout .orderInfo{
+	color:#333;
+	font-size: 20px;
+	margin:20px 0;
+}
+.orderInfo span{
+	margin-left:30px;
+}
+/*---------------------*/
