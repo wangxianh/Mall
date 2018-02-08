@@ -20,8 +20,9 @@ MongodDB<br>
 
 ## 运行效果图
 ![https://github.com/wangxianh/Mall/blob/master/gif/6.gif](https://github.com/wangxianh/Mall/blob/master/gif/6.gif)<br>
-![https://github.com/wangxianh/Mall/blob/master/gif/1.gif]<br>
-![https://github.com/wangxianh/Mall/blob/master/gif/2.gif]<br>
+![https://github.com/wangxianh/Mall/blob/master/gif/3.gif](https://github.com/wangxianh/Mall/blob/master/gif/3.gif)<br>
+![https://github.com/wangxianh/Mall/blob/master/gif/1.gif](https://github.com/wangxianh/Mall/blob/master/gif/1.gif)<br>
+![https://github.com/wangxianh/Mall/blob/master/gif/4.gif](https://github.com/wangxianh/Mall/blob/master/gif/4.gif)<br>
 
 ## Build Setup
 
