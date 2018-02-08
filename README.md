@@ -1,6 +1,22 @@
 # mall
 
-> A Vue.js project
+> Vue+Node.js+MongoDB实现简易商城网站
+
+##功能描述
+主要功能包括用户登录、登出，商品价格筛选、加入购物车、从购物车中删除、配送地址选择、订单提交、订单完成等一系列购物功能
+
+##技术栈
+前端
+Vue：实现商城前端页面开发
+vuex: 状态管理
+Vue-router: 实现路由跳转
+Webpack:模块化打包
+
+后台：
+Node.js：采用express框架
+
+数据库：
+MongodDB
 
 ## Build Setup
 
