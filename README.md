@@ -19,9 +19,13 @@ Node.js：采用express框架<br>
 MongodDB<br>
 
 ## 运行效果图
-![https://github.com/wangxianh/Mall/blob/master/gif/6.gif](https://github.com/wangxianh/Mall/blob/master/gif/6.gif)<br>
-![https://github.com/wangxianh/Mall/blob/master/gif/3.gif](https://github.com/wangxianh/Mall/blob/master/gif/3.gif)<br>
-![https://github.com/wangxianh/Mall/blob/master/gif/1.gif](https://github.com/wangxianh/Mall/blob/master/gif/1.gif)<br>
+图1：程序主界面，展示商品列表，实现按价格筛选商品，实现价格升序、降序<br>
+![https://github.com/wangxianh/Mall/blob/master/gif/6.gif](https://github.com/wangxianh/Mall/blob/master/gif/6.gif)<br><br>
+图2：用户登录、登出，在未登录状态下无法加入购物车<br>
+![https://github.com/wangxianh/Mall/blob/master/gif/3.gif](https://github.com/wangxianh/Mall/blob/master/gif/3.gif)<br><br>
+图3：商品加入购物车、确认订单、提交订单、订单完成流程<br>
+![https://github.com/wangxianh/Mall/blob/master/gif/1.gif](https://github.com/wangxianh/Mall/blob/master/gif/1.gif)<br><br>
+图4：删除购物车中商品<br>
 ![https://github.com/wangxianh/Mall/blob/master/gif/4.gif](https://github.com/wangxianh/Mall/blob/master/gif/4.gif)<br>
 
 ## Build Setup
