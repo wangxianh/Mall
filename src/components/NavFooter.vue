@@ -9,9 +9,8 @@
     		</select>
     	</span>
     	<span class="copyright">
-    		<span>Copyright © 2017 IMooc All Rights Reserved</span>
-    		<span><a href="#">About us</a></span>
-    		<span><a href="#">Terms Conditions </a></span>
+    		<span>Copyright ©wxh 2017</span>
+    		<span><a href="#">About Me</a></span>
     		<span><a href="#">Privacy Policy</a></span>
     	</span>
     </div>
